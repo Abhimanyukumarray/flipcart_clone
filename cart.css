@@ -1,0 +1,36 @@
+#main-container{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+}
+#boxa{
+    height: 250px;
+    width: 153px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+    
+   
+}
+.box{
+    height: 200px;
+    width: 150px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    margin-bottom: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box>p{
+    margin-top: 210px;
+}

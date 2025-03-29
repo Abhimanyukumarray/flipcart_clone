@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+    border:border-box;
+    align-items: center;
+}
+
+html, body {
+    height: 100%;
+    overflow: auto;
+}
+
+
+.navbar{
+    height: 50px;
+    background-color: rgb(249, 244, 244);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.nav-logo{
+
+    height: 50px;
+    width: 205px;
+    background-color: aliceblue;
+}
+.logo{
+    background-image: url("filipcart.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 205px;
+}
+  /* box 2 */
+.nav-search{
+    display: flex;
+    height: 40px;
+    width: 400px;
+    background-color: rgb(229, 239, 239);
+    margin-left: 130px;
+   border-radius: 4px;
+   border: none;
+}
+.search-input{
+    height: 40px;
+    width: 400px;
+    background-color:rgb(229, 239, 239) ;
+    border-radius: 5px;
+    border: none;
+}
+.search-icon{
+    height: 40px;
+    width: 20px;
+    text-align: center;
+    display: flex;
+}
+
+/* box 3 */
+
+.offer-selection{
+    margin-top: 15px;
+    height: 100px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: end;
+}
+
+
+.box {
+    
+    height: 80px;
+    width: 80px;
+    background: antiquewhite;
+    border-radius: 50px;
+    background-image: cover;
+    margin-bottom: 15px;
+    
+}
+.box-img {
+    height: 80px;
+    background-image: cover;
+    background-repeat: no repeat;
+}
+
+.hero-section{
+    margin-top: 15px;
+    height: 200px;
+    background-color: aqua;
+    background-image: url("hero.jpg");
+    background-size: cover;
+    animation:hero-section 2s ease-in 3s infinite normal;
+}
+/* @keyframes hero-section{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+
+    }
+} */
+
+@keyframes hero-section{
+   0%{
+        transform:translateX(0);
+    }
+    100%{
+        transform:translateX(300px);
+
+    }
+}
+
+
+.hero-pannel{
+    margin-top: 15px;
+height: 100px;
+background-color:yellow;
+background-image: url("sbi.jpg");
+background-size: cover;
+}
+
+.shop-selection{
+    margin-top: 15px;
+    height: 500px;
+    background-color: rgb(183, 172, 172);
+    border: 2px solid black;
+}
+.boxa{
+    height: 305px;
+    width: 190px;
+    border: 2px solid black;
+    background-size: cover;
+    text-align: center;
+    border-radius: 4px;
+    
+}
+.shopping{
+    height: 350px;
+    background-color: rgb(242, 242, 246);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.boxa-content{
+    height: 250px;
+    width: 190px;
+    background-color: rgb(204, 188, 188);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.discount{
+    height: 250px;
+    background-color: rgb(249, 247, 245);
+    display: flex;
+    justify-content: space-evenly;
+}
+.bag{
+    height: 250px;
+    width: 480px;
+    background-color: rgb(240, 248, 245);
+}
+
+.foot-pannel1{
+    height: 300px;
+    color: white;
+    background-color: black;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a {
+    display: block;
+    height: 0.85rem;
+    margin-top: 5px;
+    color: #dddddd
+ }
+
+ .foot-pannel2{
+    height: 100px;
+    color: white;
+    background-color: black;
+    margin-top: 1.5px;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .line{
+    display: flex;
+    text-align: center;
+ }

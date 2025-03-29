@@ -1,0 +1,120 @@
+#main{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    /* border: 2px solid black; */
+    background-color: white;
+}
+.container{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 0.2px solid black;
+   background-color: aliceblue;
+}
+.container>p{
+    margin-left: 20px;
+}
+.navbar{
+    height: 40px;
+    display: flex;
+     text-align: center;
+     align-items: center;
+     text-decoration: none;
+     background-color: aliceblue;
+     gap: 30px;
+}
+
+.nav{
+    height: 40px;
+    width: 150px;
+    background-image: url('filipcart.jpg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.end{
+    display: flex;
+    margin-left: 350px;
+    gap: 20px;
+}
+
+#hero{
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#hero>h1{
+    font-size: xx-large;
+     margin-right: 500px;
+}
+#hero>h3{
+    font-size: x-large;
+    font-weight: 100;
+    margin-right: 500px;
+}
+
+#section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mast{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+#main-div{
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+#ram{
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.s{
+    height: 200px;
+    width: 400px;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+    margin: 20px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    background-color: rgb(250, 253, 253);
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.woman{
+    height: 500px;
+    width: 360px;
+    margin-left: 100px;
+    background-size: cover;
+    
+}
+.woman-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="loginUser.css">
+</head>
+
+<body>
+    <form id="form">
+        <h1>Login</h1>
+
+        <input type="text" placeholder="Email">
+        <br><br>
+        <input type="password" placeholder="password">
+        <br><br>
+        <input type="checkbox">PassWord
+        <br><br>
+
+        <button onclick="signin()">SIGN IN</button>
+        <br>
+        <p>Forgot Username / password</p>
+        <p>Don't have an account? Sign up</p>
+        <p id="log"></p>
+    </form>
+
+    <script>
+        function signin() {
+            const sub = document.querySelector('#form');
+            sub.style.backgroundColor = 'red';
+            document.getElementById('log').innerHTML = "logged successfully"
+            event.preventDefault();
+        }
+       
+    </script>
+</body>
+
+</html>
